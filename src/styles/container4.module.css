@@ -1,0 +1,55 @@
+.container {
+    position: relative;
+   
+  }
+  .bgimg {
+    background-size: cover;
+    background-position: center;
+  
+    width: 100%;
+    opacity: 0.2;
+    background-size: cover;
+    background-position: center;
+    
+    width: 100%;
+    /* height: 81vh; */
+    position: relative;
+    opacity: 100%;
+  }
+  .guitar{
+    position: absolute;
+    height: 10%;
+    width: 22%;
+    top: 35%;
+    left: 45%;
+    opacity: 100%;
+    z-index: 1;
+  }
+  #h1{
+    position: absolute;
+    top: -110%;
+    left: 10%;
+    color: #625670;
+    font-style: italic;
+    z-index: 1;
+  }
+  @media  (max-width:767px){
+    
+    .guitar{
+      position: absolute;
+      height: 10%;
+      width: 17%;
+      top: 35%;
+      left: 25%;
+      opacity: 100%;
+      z-index: 1;
+    }
+    #h1{
+      position: absolute;
+      top: -110%;
+      left: 32%;
+      color: #625670;
+      font-style: italic;
+      z-index: 1;
+    }
+  }
